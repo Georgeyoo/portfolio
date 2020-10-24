@@ -4,9 +4,28 @@
     letter-spacing: 2px;
     font-size: 16px;
     color: #bbb;
+    scroll-behavior: smooth;
+}
+
+#container{
+    overflow-y: scroll;
 }
 
 /* Navbar CSS */
+
+#topDivPush
+{
+    width: 100%;
+    height: 55px;
+}
+
+.navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 
 .navbar-nav 
 {
@@ -18,16 +37,26 @@
     font-size: 14px;
 }
 
+/* About Section */
+
+#about-section
+{
+    padding-top: 55px;
+    height: 120vh;
+}
+
 /* Project Cards CSS */
 
 #projects-section
 {
-    height: 120vh;
+    height: 90vh;
 }
 
 .card
 {
-    width: 33%;
+    /* margin-top: 10%; */
+    margin: 10% 20px;
+    width: 29%;
 }
 
 /* Footer CSS */
@@ -39,9 +68,9 @@
   font-size:15px;
   line-height:24px;
   color:#737373;
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100%; */
 }
 
 .site-footer h6
@@ -131,7 +160,7 @@
   background-color:#007bb6
 }
 
-.site-footer hr
+.divider
 {
   border-top-color:#bbb;
   opacity:0.5
