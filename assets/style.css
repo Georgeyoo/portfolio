@@ -1,0 +1,11 @@
+*, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav {
+    margin-left: 80%;;
+}
+
+.nav-item {
+    /* padding-left: 10%; */
+}
