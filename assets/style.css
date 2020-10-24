@@ -7,10 +7,6 @@
     scroll-behavior: smooth;
 }
 
-#container{
-    overflow-y: scroll;
-}
-
 /* Navbar CSS */
 
 #topDivPush
@@ -27,6 +23,11 @@
     z-index: 100;
 }
 
+.navbar-brand
+{
+    margin-left: 4%;
+}
+
 .navbar-nav 
 {
     margin-left: 80%;;
@@ -39,10 +40,20 @@
 
 /* About Section */
 
+.profile-img
+{
+    border-radius: 25%;
+}
+
 #about-section
 {
-    padding-top: 55px;
-    height: 120vh;
+    margin-top: 55px;
+    height: 90vh;
+}
+
+.about
+{
+    margin-top: 5%;
 }
 
 /* Project Cards CSS */
@@ -54,10 +65,9 @@
 
 .card
 {
-    /* margin-top: 10%; */
-    margin: 10% 20px;
-    width: 29%;
+    margin-top: 10%;
 }
+
 
 /* Footer CSS */
 
@@ -68,9 +78,6 @@
   font-size:15px;
   line-height:24px;
   color:#737373;
-  /* position: fixed;
-  bottom: 0;
-  width: 100%; */
 }
 
 .site-footer h6
