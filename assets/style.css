@@ -88,8 +88,33 @@
 .card
 {
     margin-top: 10%;
+    padding-top: 20px;
 }
 
+.card-img-top
+{
+  height: 200px;
+  width: 250px;
+  margin: auto;
+}
+
+.card-title
+{
+  color: black;
+  text-align: center;
+}
+
+.card-text
+{
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+
+.card-btns
+{
+  margin: auto;
+}
 
 /* Footer CSS */
 
