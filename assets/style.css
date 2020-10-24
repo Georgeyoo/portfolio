@@ -21,11 +21,12 @@
     top: 0;
     width: 100%;
     z-index: 100;
+    background-color: #26272b;
 }
 
 .navbar-brand
 {
-    margin-left: 4%;
+    margin-left: 7%;
 }
 
 .navbar-nav 
@@ -42,31 +43,38 @@
 
 .profile-img
 {
+    max-height: 250px;
+    max-width: 250px;
     border-radius: 25%;
+    margin: auto;
 }
 
 #about-section
 {
     margin-top: 55px;
     height: 90vh;
-    color: gray;
 }
 
 .about
 {
-    /* margin: auto; */
+    margin: auto;
     /* float: center; */
 }
 
 .about-title
 {
-    margin-left: 1.25%;
-    color: gray;
+    font-weight: bolder;
+    color: black;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .about-text
 {
-    color: gray;
+    font-weight: bold;
+    color: black;
+    padding: 0 15%;
+    text-align: center;
 }
 
 
