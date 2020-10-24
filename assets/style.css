@@ -49,18 +49,32 @@
 {
     margin-top: 55px;
     height: 90vh;
+    color: gray;
 }
 
 .about
 {
-    margin-top: 5%;
+    /* margin: auto; */
+    /* float: center; */
 }
+
+.about-title
+{
+    margin-left: 1.25%;
+    color: gray;
+}
+
+.about-text
+{
+    color: gray;
+}
+
 
 /* Project Cards CSS */
 
 #projects-section
 {
-    height: 90vh;
+    height: 79vh;
 }
 
 .card
