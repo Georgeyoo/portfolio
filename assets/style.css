@@ -70,6 +70,12 @@
     text-align: center;
 }
 
+.about-title + p
+{
+  color: #26272b;
+  text-align: center;
+}
+
 .about-text
 {
     font-weight: bold;
