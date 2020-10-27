@@ -42,12 +42,45 @@
 
 /* About Section */
 
+.picture-container
+{
+  background-color: white;
+  height: 220px;
+  margin: auto;
+  border: solid 1px black;
+}
+
 .profile-img
 {
-    max-height: 250px;
-    max-width: 250px;
-    border-radius: 25%;
-    margin: auto;
+  max-height: 150px;
+  max-width: 150px;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid 1px black;
+}
+
+.picture-container:hover
+{
+  -moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+.picture-caption
+{
+  color: black;
+  content: attr(picture-caption);
+  /* position: absolute; */
+  width: calc(100% - 20px);
+  padding: 10px;
+  padding-left: 20px; 
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Indie Flower';
 }
 
 #about-section
