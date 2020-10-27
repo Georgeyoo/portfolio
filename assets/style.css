@@ -59,7 +59,6 @@
 .about
 {
     margin: auto;
-    /* float: center; */
 }
 
 .about-title
@@ -82,6 +81,48 @@
     color: black;
     padding: 0 15%;
     text-align: center;
+}
+
+#blink-text
+{
+  font-weight: bold;
+  color: black;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+#sleek-text
+{
+  font-weight: bold;
+  color: black;
+
+}
+
+#scale-text
+{
+  font-weight: bold;
+  color: black;
+
+}
+
+.tech-span
+{
+  margin: auto;
+}
+
+.tech 
+{
+  margin-top: 15%;
+  /* text-align: center; */
+  font-weight: bold;
+  color: black;
+}
+
+.tech-img
+{
+  width: 30px;
+  height: 30px;
 }
 
 
@@ -231,4 +272,28 @@
     color: #bbb;
     font-size: 10px;
     text-align: center;
+}
+
+@keyframes blink
+{
+  0% 
+  {
+    color: white;
+  };
+  25% 
+  {
+    color: black;
+  };
+  50% 
+  {
+    color: white;
+  };
+  75% 
+  {
+    color: black;
+  };
+  100% 
+  {
+    color: white;
+  };
 }
